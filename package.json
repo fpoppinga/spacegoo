@@ -1,0 +1,13 @@
+{
+  "name": "spacegoo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "start": "tsc -p . && chmod +x ./build/stupidClient.js"
+  }
+}
